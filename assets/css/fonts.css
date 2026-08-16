@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+.amatic-sc-regular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amatic-sc-bold {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+    font-family: "Amatic SC", sans-serif;
+}

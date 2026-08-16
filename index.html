@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>corecore</title>
+
+    <!-- links -->
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+</head>
+<body>
+    <header id="header">
+        <div id="containerHeader">
+            <h1 id="corecoreTXT">corecore</h1>
+        </div>
+    </header>
+    <section id="ideaSection">
+        <div>
+            <div id="sphere1" class="sphere"></div>
+            <div id="photoSmile"><img src="assets/img/hc.jpg" alt=""></div>
+        </div>
+        <div>
+            <div id="sphere2" class="sphere"></div>
+            <div id="photoLoser"><img src="assets/img/lc.jpg" alt="" style="width: 250px;"></div>
+        </div>
+        <div class="music-player">
+            <div class="album-art">
+                <img src="cover.jpg" alt="Обложка">
+            </div>
+            <div class="player-info">
+                <h3>Song dont found</h3>
+                <p>404</p>
+            </div>
+            <audio id="audioPlayer" src="assets/audio/loserclub.mp3"></audio>
+            <div class="controls">
+                <button id="playBtn">▶</button>
+                <input type="range" id="progress" value="0" max="100">
+                <span id="time">0:00 / 0:00</span>
+                <button id="volumeBtn">🔊</button>
+                <input type="range" id="volume" value="80" max="100">
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/music.js"></script>
+</body>
+</html>
